@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "please enter the marks"
+read marks
+#lt is less than, gt is greater than,le is less than or equal to, ge is greaterthan
+
+if [ $marks -lt 33] then
+echo "fail"
+elif [ $marks -le 50] then
+echo "third class"
+elif [ $marks -le 60] then
+echo "second class"
+elif [ $marks -le 70] then
+echo "first class"
+else
+echo "distinction"
+fi
+echo "end"
