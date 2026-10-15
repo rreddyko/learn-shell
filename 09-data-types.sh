@@ -12,3 +12,4 @@ echo "$COUNT"
 
 FRUITS=("Apple" "Banana" "Mango" "Orange") # THIS IS LIST OF ARRAYS
 echo "ALL FRUITS ${FRUITS[@]}"
+echo "FIRST FRUIT ${FRUITS[0]}"
