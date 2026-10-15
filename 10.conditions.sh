@@ -5,11 +5,11 @@ read marks
 
 if [ $marks -lt 33] then
 echo "fail"
-elif [ $marks -le 50] then
+elif [ $marks -lt 50] then
 echo "third class"
-elif [ $marks -le 60] then
+elif [ $marks -lt 60] then
 echo "second class"
-elif [ $marks -le 70] then
+elif [ $marks -lt 70] then
 echo "first class"
 else
 echo "distinction"
