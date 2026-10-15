@@ -2,4 +2,4 @@
 
 # This is env practice
 
-echo "$COUSE"
+echo "$COURSE"
