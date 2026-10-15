@@ -7,4 +7,5 @@ echo "$var1 + $var2"
 echo "$(($var1+$var2+$var3))"
 
 declare -i COUNT=10
-echo "COUNT: $COUNT+1"
+COUNT=COUNT+1
+echo "$COUNT"
