@@ -4,16 +4,16 @@ if [ $user_id -ne 0 ]; then
 echo " please run this script with sudo access"
 exit 1
 fi
-echo "proceeing"
+echo "proceeding"
 
-dnf install nginxxx -y
+dnf install nginx -y
 if [ $? -ne 0 ]; then
 echo "nginx installation failed"
 exit 1
 else 
 echo "nginx installation success" 
 fi
-dnf install mysqlll -y
+dnf install mysql -y
 if [ $? -ne 0 ]; then
 echo "mysql client install failed"
 exit 1
@@ -21,4 +21,4 @@ else
 echo "mysql install success"
 fi
 
-echo "still proceeding"
+echo "still proceeding11"
