@@ -14,5 +14,5 @@ FRUITS=("Apple" "Banana" "Mango" "Orange") # THIS IS LIST OF ARRAYS
 echo "ALL FRUITS ${FRUITS[@]}"
 echo "FIRST FRUIT ${FRUITS[0]}"
 
-name = "Ramesh Redddy k"
+name="Ramesh Redddy k"
 echo "${name}otha"
