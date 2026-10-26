@@ -19,6 +19,7 @@ echo "mysql client install failed"
 exit 1
 else
 echo "mysql install success"
-fi
+
+if []
 
 echo "still proceeding11"
