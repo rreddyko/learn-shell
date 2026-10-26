@@ -1,6 +1,6 @@
 #! /bin/bash
 
-diskusage=$(df -hT | grep -v Filesystem)
+disk_usage=$(df -hT | grep -v Filesystem)
 usage_threshold=20
 
 while IFS= read -r line 
