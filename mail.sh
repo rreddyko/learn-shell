@@ -9,7 +9,7 @@ subject=$6
 
 final_message=$(echo "$message" | sed 's/[.|$*^\\\/]/\\&/g')
 
-final_body=$(sed -e 's/TO_TEAM/$team_name/g' -e 's/ALERT_TYPE/$alert_type' -e 's/SERVER_IP/$server_ip' -e 's/MESSAGE_BODY/$message' template.html)
+final_body=$(sed -e 's/TO_TEAM/$team_name/g' -e 's/ALERT_TYPE/$alert_type/g' -e 's/SERVER_IP/$server_ip/g' -e 's/MESSAGE_BODY/$message/g' template.html)
 
 {
 echo "To: ramesh.kotha.572@zohomail.in"
@@ -18,3 +18,4 @@ echo "Content-Type: text/html"
 echo ""
 echo "$final_body"
 } | msmtp "ramesh.kotha.572@zohomail.in"
+
